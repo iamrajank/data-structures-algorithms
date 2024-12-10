@@ -5,7 +5,7 @@ vector<int> reverse(vector<int> arr) {
 	while(s<=e) {
 		swap(arr[s++],arr[e--]);
 	}
-	return arr
+	return arr;
 }
 
 vector<int> findArraySum(vector<int>&a, int n, vector<int>&b, int m) {
